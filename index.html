@@ -2,261 +2,458 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ShAM</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
-    <link rel="stylesheet" href="sources/styles/style.css" />
-    <link rel="stylesheet" href="sources/styles/bg-video.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="sources/files/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="sources/files/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="sources/files/favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="sources/files/favicon_io/site.webmanifest">
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href='style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon-io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-io/favicon-16x16.png">
+    <link rel="manifest" href="favicon-io/site.webmanifest">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дом Лучшей Еды</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/"><img src="sources/images/favicon-32x32.png" alt="Logo" /></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pricing.html">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pricing.html">Contacts</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pricing.html"><img style="width: 35px; margin-inline: 1em;"
-                                    src="sources/images/yt.png" alt=""></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-0" href="pricing.html"><img style="width: 30px; margin-inline: 1em;"
-                                    src="sources/images/tg.png" alt=""></a>
-                        </li>
 
-                    </ul>
+    <div class='header'>
+        <div class='container'>
+            <div class='header-line'>
+                <div class='header-logo'>
+                    <img src="logo.png" alt="">
                 </div>
-            </div>
-        </nav>
-    </header>
 
-    <section>
-        <div class="bg-video">
-            <video src="sources/files/video-cast.mp4" type="video/mp4" autoplay muted loop></video>
-            <div class="effect"></div>
-            <div class="video-text">
-                <h1 class="Razmer">Future's here!</h1>
-            </div>
-        </div>
+                <div class='nav'>
+                    <a class='nav-item' href="@">ГЛАВНАЯ</a>
+                    <a class='nav-item' href="@">МЕНЮ</a>
+                    <a class='nav-item' href="@">О НАС</a>
+                    <a class='nav-item' href="@">БРОНЬ</a>
+                </div>
 
-        <div class="container-fluid m-4 Go Shopping">
-            <div class="row">
-                <div class="col-lg-1"></div>
+                <div class='cart'>
+                    <a href="#">
+                        <img class='cart-img' src="cart.png" alt="">
+                    </a>
+                </div>
 
-                <div class="col-lg-8 col-md-12">
-                    <div class="row">
-                        <div id="carouselExampleIndicators" class="carousel slide">
-                            <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                    class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                                    aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                                    aria-label="Slide 3"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                                    aria-label="Slide 4"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-                                    aria-label="Slide 5"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
-                                    aria-label="Slide 6"></button>
-                            </div>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div class="d-block w-100">
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6">
-                                                <img src="sources/images/gaming pc.png" alt="xz" class="w-100" />
-                                            </div>
-                                            <div class="col-lg-6 col-md-6 slide-text">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing
-                                                    elit. Obcaecati, voluptates.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="d-block w-100">
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6">
-                                                <img src="sources/images/vr.png" class="w-100" alt="xz" />
-                                            </div>
-                                            <div class="col-lg-6 col-md-6 slide-text">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing
-                                                    elit. Obcaecati, voluptates.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="d-block w-100">
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6">
-                                                <img src="sources/images/laptop.png" class="w-100" alt="xz" />
-                                            </div>
-                                            <div class="col-lg-6 col-md-6 slide-text">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing
-                                                    elit. Obcaecati, voluptates.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="d-block w-100">
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6">
-                                                <img src="sources/images/acc.png" class="w-100" alt="xz" />
-                                            </div>
-                                            <div class="col-lg-6 col-md-6 slide-text">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing
-                                                    elit. Obcaecati, voluptates.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="d-block w-100">
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6">
-                                                <img src="sources/images/gpu.png" class="w-100" alt="xz" />
-                                            </div>
-                                            <div class="col-lg-6 col-md-6 slide-text">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing
-                                                    elit. Obcaecati, voluptates.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="d-block w-100">
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6">
-                                                <img src="sources/images/controller.png" class="w-100" alt="xz" />
-                                            </div>
-                                            <div class="col-lg-6 col-md-6 slide-text">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing
-                                                    elit. Obcaecati, voluptates.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button"
-                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button"
-                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
+                <div class='phone'>
+                    <div class='phone-holder'>
+                        <div class='phone-img'>
+                            <img src="phone.png" alt="">
                         </div>
 
-                        <div class="col-lg-12 col-md-12 text-center mt-5">
-                            <a href="pricing.html"><button type="button" class="btn btn-outline-primary btn-lg">See
-                                    more</button></a>
-                        </div>
-                        <div class="col-lg-12 col-md-12 text-center mt-2">
-                            <p>Can we help you?</p>
-                        </div>
-                        <div class="col-lg-12 col-md-12 text-center">
-                            <img class="call-anim" style="width: 30px;" src="sources/images/phone.png" alt="">
-                        </div>
+                        <div class='number'><a class='num' href='#'>+999-888-76-54</a></div>
+                    </div>
 
+                    <div class='phone-text'>
+                        Свяжитесь с нами для <br> бронирования
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-12">
-                    <div class="row px-2">
-                        <div class="col-lg-12 sidebar my-4">
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                Quisquam unde deleniti aperiam quam hic ad in enim quibusdam
-                                temporibus fugiat?
-                            </p>
+                <div class='btn'>
+                    <a class='button' href='#'>ЗАКАЗ СТОЛИКА</a>
+                </div>
+
+                <div class='burger-menu'>
+
+                    <button id='burger'>
+                        <img src="burger-img.png" alt="">
+                    </button>
+
+                    <div id='menu' class='burger-slide disp'>
+                        <a class='nav-item block' href="@">ГЛАВНАЯ</a>
+                        <a class='nav-item block' href="@">МЕНЮ</a>
+                        <a class='nav-item block' href="@">О НАС</a>
+                        <a class='nav-item block' href="@">БРОНЬ</a>
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class='header-down'>
+
+                <div class='header-title'>
+                    Добро пожаловать в
+
+                    <div class='header-subtitle'>
+                        Наш ресторан
+                    </div>
+
+                    <div class='header-suptitle'>
+                        ДОМ ЛУЧШЕЙ ЕДЫ
+                    </div>
+
+                    <div class='header-bth'>
+                        <a href='#' class='header-button'>VIEW MENU</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class='cards'>
+
+        <div class='container'>
+
+            <div class='cards-holder'>
+
+                <div class='card'>
+
+                    <div class='card-image'>
+                        <img class='card-img' src='card.png'>
+                    </div>
+
+                    <div class='card-title'>
+                        Магическая <span>Атмосфера</span>
+                    </div>
+
+                    <div class='card-desc'>
+                        В нашем заведении царит магическая атмосфера наполненная вкусными ароматами
+                    </div>
+
+                </div>
+
+                <div class='card'>
+
+                    <div class='card-image'>
+                        <img class='card-img' src='card.png'>
+                    </div>
+
+                    <div class='card-title'>
+                        Лучшее качество <span>Еды</span>
+                    </div>
+
+                    <div class='card-desc'>
+                        Качество нашей Еды - отменное!
+
+                    </div>
+
+                </div>
+
+                <div class='card'>
+
+                    <div class='card-image'>
+                        <img class='card-img' src='card.png'>
+                    </div>
+
+                    <div class='card-title'>
+                        Недорогая <span>Еда</span>
+                    </div>
+
+                    <div class='card-desc'>
+                        Стоимость нашей Едызависит только от ееколичества. Качество всегда на высоте!
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class='history'>
+
+        <div class='container'>
+
+            <div class='history-holder'>
+                <div class='history-info'>
+                    <div class='history-title'>
+                        Наша <span>История</span>
+                    </div>
+
+                    <div class='history-desc'>
+                        Как и у любого другого самобытного места, у нас есть своя, особая история. Идея ресторана пришла
+                        основателям неожиданно. Во время прогулки по лесу создатель нашего ресторана застрял в сотнях
+                        километров от ближайшего населенного пункта. Вдали от цивилизации и связи им пришлось навремя
+                        обустровать себе нехитрый быт, добывать и готовить себе еду.
+                    </div>
+
+
+                    <div class='history-number'>
+                        <div class='number-item'>
+                            93 <span>Напитки</span>
                         </div>
 
-                        <div class="col-lg-12 sidebar my-4">
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                Quisquam unde deleniti aperiam quam hic ad in enim quibusdam
-                                temporibus fugiat?
-                            </p>
+                        <div class='number-item'>
+                            206 <span>Еда</span>
                         </div>
 
-                        <div class="col-lg-12 sidebar my-4">
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                Quisquam unde deleniti aperiam quam hic ad in enim quibusdam
-                                temporibus fugiat?
-                            </p>
+                        <div class='number-item'>
+                            71 <span>Закуски</span>
                         </div>
+                    </div>
+                </div>
 
-                        <div class="col-lg-12 sidebar my-4">
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                Quisquam unde deleniti aperiam quam hic ad in enim quibusdam
-                                temporibus fugiat?
-                            </p>
+                <div class='history-images'>
+                    <img class='imgages-1' src="1.jpg" alt="">
+                    <img class='imgages-2' src="2.jpg" alt="">
+                    <img class='imgages-3' src="3.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class='black-block'>
+
+        <div class='container'>
+
+            <div class='block-holder'>
+                <div class='left'>
+                    <div class='left-title'>
+                        Отпразднуйте в одном из <br> самых лучших ресторанов.
+                    </div>
+
+                    <div class='left-text'>
+                        Только в этом месяце бизнес-ланч от 250 ₽
+                    </div>
+                </div>
+
+                <div class='right'>
+                    <div class='right-button'>
+                        <a href='#' class='right-btn'>ЗАКАЗ СТОЛИКА</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class='dishes'>
+
+        <div class='container'>
+
+            <div class='dishes-title'>
+                Наши <span>Блюда</span>
+            </div>
+
+            <div class='burgers'>
+                <div class='burgers-image'>
+                    <img src='pizza.jpg' class='pizza'>
+                </div>
+
+                <div class='burgers-items'>
+                    <div class='burger-item'>
+                        <img src="burger.jpg" class=''>
+                        <div class='burger-text'>
+                            Гамбургер мини -------------- 220 ₽
+                        </div>
+                    </div>
+
+                    <div class='burger-item'>
+                        <img src="burger.jpg" class=''>
+                        <div class='burger-text'>
+                            Гамбургер мини -------------- 220 ₽
+                        </div>
+                    </div>
+
+                    <div class='burger-item'>
+                        <img src="burger.jpg" class=''>
+                        <div class='burger-text'>
+                            Гамбургер мини -------------- 220 ₽
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <footer>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-4 col-md-12 footer-text text-center">
-                    <p>All Rights Reserves 2025</p>
+        </div>
+
+    </div>
+
+
+    <div class='menu'>
+
+        <div class='container'>
+
+            <div class='menu-title'>
+                Наше меню
+            </div>
+
+            <div class='menu-items'>
+
+                <div class='menu-item'>
+                    <div class='menu-image'>
+                        <img src='burger-i.jpg' class='menu-img'>
+                    </div>
+
+                    <div class='menu-text'>
+                        Гамбургер макси
+                    </div>
+
+                    <div class='menu-subtext'>
+                        Максимально толстый <br> слой мяса
+                    </div>
+
+                    <div class='menu-button'>
+                        <a href='#' class='menu-btn'>ЗАКАЗАТЬ</a>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-md-12 footer-text text-center mt-3">
-                    <p>Contacts<br>Job<br>Our Team</p>
+
+                <div class='menu-item'>
+                    <div class='menu-image'>
+                        <img src='burger-i.jpg' class='menu-img'>
+                    </div>
+
+                    <div class='menu-text'>
+                        Гамбургер макси
+                    </div>
+
+                    <div class='menu-subtext'>
+                        Максимально толстый <br> слой мяса
+                    </div>
+
+                    <div class='menu-button'>
+                        <a href='#' class='menu-btn'>ЗАКАЗАТЬ</a>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-md-12 media-links">
-                    <a href="#"><img style="width: 40px; margin-inline: 1em;" src="sources/images/tg.png" alt=""></a>
-                    <a href="#"><img style="width: 40px; margin-inline: 1em;" src="sources/images/yt.png" alt=""></a>
+
+                <div class='menu-item'>
+                    <div class='menu-image'>
+                        <img src='burger-i.jpg' class='menu-img'>
+                    </div>
+
+                    <div class='menu-text'>
+                        Гамбургер макси
+                    </div>
+
+                    <div class='menu-subtext'>
+                        Максимально толстый <br> слой мяса
+                    </div>
+
+                    <div class='menu-button'>
+                        <a href='#' class='menu-btn'>ЗАКАЗАТЬ</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-        crossorigin="anonymous"></script>
+        </div>
+
+    </div>
+
+    <div class='coment'>
+
+        <div class='container'>
+
+            <div class='coment-text'>
+                Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек родной Армении!!! Отдельное
+                спасибо за комплепент в виде фруктовой тарелки. Будем рекомендовать этот ресторан своим друзьям и
+                родственникам также за рубежом, путешествующих в Санкт-Петербург!!!
+            </div>
+
+            <div class='coment-image'>
+                <img src='face.png' class='coment-img'>
+            </div>
+
+            <div class='coment-type'>
+                Посетитель
+            </div>
+
+            <div class='coment-name'>
+                Николай
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class='galery'>
+
+        <div class='container'>
+
+            <div class='galery-title'>
+                Галерея <span>Блюд</span>
+            </div>
+
+
+            <div class='galery-content'>
+
+                <div class='galery-left'>
+
+                    <div class='galery-up'>
+                        <img class='img-gal high' src="10.jpg">
+                    </div>
+
+                    <div class='galery-down'>
+                        <img class='img-gal' src="20.jpg">
+                        <img class='img-gal' src="30.jpg">
+                    </div>
+
+                </div>
+
+                <div class='galery-right'>
+
+                    <div class='galery-up'>
+                        <img class='img-gal' src="20.jpg">
+                        <img class='img-gal' src="30.jpg">
+                    </div>
+
+                    <div class='galery-down'>
+                        <img class='img-gal high' src="10.jpg">
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <div class='cook'>
+
+        <div class='container'>
+
+            <div class='cook-title'>
+                Наши <span>Повара</span>
+            </div>
+
+
+            <div class='cook-content'>
+                <img src='1c.jpg'>
+                <img src='2c.jpg'>
+                <img src='3c.jpg'>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class='footer'>
+        HTML markup <br>
+        Original Source Link - <a target="_blank"
+            href="https://www.figma.com/design/dVBa7wx6E0y2wiSODQdhut/Untitled?node-id=0-1&p=f&t=YmnnqMrM0RsSCuRz-0">Figma</a><br>
+        Made by Filippov.A.A,<br>
+        2025
+    </div>
+
+
+    <script src='app.js'></script>
+
 </body>
 
 </html>
